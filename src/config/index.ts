@@ -1,97 +1,88 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Najib Alimudin Fajri — DevOps, Software, and Data Engineer",
+  author: "Najib Alimudin Fajri",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Fresh Graduated Bachelor of Applied Computer Science, passionate about DevOps and Web Development.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/najib-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Instagram", href: "https://www.instagram.com/najibalimudin/" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/najib-alimudin-fajri-25a614191" },
+    { text: "Github", href: "https://github.com/najibalimudinn" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/profile.png",
+  canonicalURL: "https://ghujinstudio.my.id",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Najib Alimudin Fajri",
+    specialty: "DevOps, Software, and Data Engineer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Fresh Graduated Bachelor of Applied Computer Science, passionate about DevOps and Web Development.",
+    email: "najibaf147@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Padepokan Tujuh Sembilan",
+      position: "DevOps Engineer Intern",
+      startDate: "Jun 2025",
+      endDate: "Oct 2025",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Managed the deployment ecosystem for enterprise applications and a distributed data processing cluster running across multiple virtual machines (VMs).",
+        "Stabilized continuous delivery pipelines by troubleshooting front-end and back-end container deployment failures in Argo CD, improving overall system reliability.",
+        "Led a cross-functional team as Team/Tech Lead through the end-to-end development of a Learning Management System (LMS), including the integration of an AI-based evaluation feature via API.",
+        "Improved company profile website performance by resolving asynchronous API bottlenecks and implementing code splitting, lazy loading, and Progressive Web App (PWA) support.",
+        "Strengthened security and operational efficiency through server hardening, vulnerability testing, load testing, and backend workflow automation.",
+        "Standardized system architecture documentation (Software Design Document) by reverse engineering the running system.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Politeknik Negeri Bandung",
+      position: "Research Assistant",
+      startDate: "Apr 2025",
+      endDate: "Sep 2025",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Designed and developed a dummy web application end to end as the medium for fault seeding, supporting a software testing learning module.",
+        "Authored a comprehensive Software Requirements Specification (SRS) covering functional requirements analysis, sequence diagram modeling, and operation contracts.",
+        "Designed interface mockups and interactive prototypes in Figma, then implemented them as a working application using Express.js (backend) and React (frontend).",
+        "Configured application deployment to the server using Docker containerization and the Nginx web server.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "Politeknik Negeri Bandung",
+      position: "Research Member",
+      startDate: "Apr 2023",
+      endDate: "Sep 2023",
+      summary: [
+        "Built and configured an automated testing environment for web applications from the ground up.",
+        "Integrated Selenium, Cucumber, and TestNG to design and execute reliable functional testing scenarios.",
+        "Gained practical, in-depth understanding of software quality assurance (QA) and the software testing lifecycle.",
+      ]
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
-    },
-    {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
-    },
-    {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Next.js Dashboard",
+      summary: "A full-stack Next.js dashboard deployed on a custom homelab infrastructure utilizing Docker, Jenkins CI, and Cloudflare Tunnels.",
+      linkPreview: "https://nextjs-dashboard.ghujinstudio.my.id",
+      linkSource: "https://github.com/najibalimudinn/nextjs-dashboard",
+      image: "/nextjs-dashboard.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Applied Bachelor graduate in Informatics Engineering from Politeknik Negeri Bandung (GPA 3.60/4.00, cum laude) with a strong hands-on foundation in full-stack development and DevOps operations. 
+      Experienced in managing enterprise application deployments across multiple virtual machines, stabilizing continuous delivery pipelines in Argo CD, and leading cross-functional teams through end-to-end system development. A research background in data classification and text processing has built a strong interest in data engineering. Open to roles as a Software Engineer, DevOps Engineer, or Data Engineer.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/najib-big.jpg",
   },
 };
 
