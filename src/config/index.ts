@@ -76,6 +76,13 @@ export const SITE_CONTENT: SiteContent = {
       linkSource: "https://github.com/najibalimudinn/nextjs-dashboard",
       image: "/nextjs-dashboard.png",
     },
+    {
+      name: "Nontondulu",
+      summary: "A full-stack movie discovery and review platform built with React, Express, and PostgreSQL, featuring search, user reviews, CMS management, and Google/email-based authentication.",
+      linkPreview: "https://nontondulu.ghujinstudio.my.id",
+      linkSource: "https://gitlab.com/najibalimudin/nontondulu",
+      image: "/nontondulu.png",
+    },
   ],
   about: {
     description: `
